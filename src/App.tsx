@@ -14,7 +14,7 @@ function App() {
 
   const fetchNotes = async () => {
     try {
-      const response = await fetch("http://https://deploy-back-p4yz.onrender.com/notes");
+      const response = await fetch("https://deploy-back-p4yz.onrender.com/notes");
       const data = await response.json();
       setNotes(data);
     } catch (err) {
@@ -32,7 +32,7 @@ function App() {
     }
 
     try {
-      const response = await fetch("http://https://deploy-back-p4yz.onrender.com/notes", {
+      const response = await fetch("https://deploy-back-p4yz.onrender.com/notes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
